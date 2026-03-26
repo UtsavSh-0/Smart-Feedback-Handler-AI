@@ -26,8 +26,3 @@ B --> C{Sentiment?}
 C -->|Negative| D[Send Slack Alert]
 C -->|Negative| E[Send Apology to User]
 C -->|Positive| F[Store in Database]
-
-<img width="1118" height="415" alt="image" src="https://github.com/user-attachments/assets/ea9ccc31-59da-4059-8a1a-c3781c870a78" />
-<img width="627" height="558" alt="image" src="https://github.com/user-attachments/assets/9c86c4a4-521b-4fa6-9705-44a5a359ba68" />
-
-
